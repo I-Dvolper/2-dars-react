@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+.sahifa {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.asos {
+  width: 100%;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.qator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.qator > * {
+  flex: 1;
+}
+
+.pastki {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+@media (max-width: 768px) {
+  .qator {
+    flex-direction: column;
+  }
+}
