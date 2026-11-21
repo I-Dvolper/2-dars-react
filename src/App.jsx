@@ -6,7 +6,7 @@ import Button from "./assets/components/Button/Button"
 const App = () => {
   return (
     <div className="sahifa">
-      <Navbar nomi="My Store" />
+      <Navbar nomi="My Store" tugma="Kirish" />
 
       <main className="asos">
         <div className="qator">
